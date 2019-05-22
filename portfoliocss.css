@@ -1,0 +1,238 @@
+*{
+    /* outline: 1px dotted black; */
+}
+
+#wrapper{
+    background-image: radial-gradient(circle,rgb(229,204,225), rgb(28,12,16));
+    margin: 0px auto;
+    padding: 0px;
+    min-height: 1029px;
+    width: 970px;
+
+}
+
+#header{
+    background-image: linear-gradient(rgb(214, 213, 213), white);
+    display: block;
+    padding: 0px;
+    min-height: 40px;
+    padding-left: 20px;
+
+}
+
+.headername{
+    display: inline-block;
+    font-family: "Comic Sans MS";
+    width: 600px;
+    padding: 0px;
+    font-size: 13pt;
+    margin: 0px;
+    vertical-align: middle;
+    line-height: 1em;
+}
+
+.headername h1{
+    font-weight: 300 !important;
+}
+
+.headerinfo{
+    display: inline-block;
+    font-family: "Arial";
+    font-size: 14pt;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    line-height: 1em;
+}
+
+.headerinfo p{
+    font-weight: bold;
+}
+
+#contentup{
+    margin: 20px;
+    display: inline-block;
+}
+
+#contentup img{
+    height: 44%;
+    width: 44%; 
+    border: 5px solid rgb(195,195,195);
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.profile{
+    display: block;
+}
+
+.about{
+    background-image: linear-gradient(rgb(180,180,183),rgb(135,135,146),rgb(180,180,183));
+    font-family: "Helvetica";
+    color: white;
+    padding: 15px 10px 15px 10px;
+    width: 470px;
+    display: inline-block;
+    font-size: 14pt;
+    height: .8em;
+}
+
+.about h{
+    font-weight: bold;
+}
+
+.profiletext{
+    background-image: linear-gradient(to right, rgb(225,225,225),rgb(219,203,216));
+    font-family: "Helvetica";
+    font-size: 12pt;
+    width: 470px;
+    padding: 0px 10px 0px 10px;
+    display: inline-block;
+    min-height: 235px;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: underline;
+}
+
+#bodyinfo{
+    min-height: 400px;
+    width: 700px;
+    display: inline-block;
+    margin-left: 20px;
+    width: 950px;
+    min-height: 500px; 
+}
+
+
+#bodycontent{
+    display: inline-block;
+    padding: 0px;
+}
+
+.bodyheader{
+    background-image: linear-gradient(rgb(180,180,183),rgb(135,135,146),rgb(180,180,183));
+    font-family: "Helvetica";
+    color: white;
+    padding: 15px 10px 15px 10px;
+    width: 274px;
+    display: inline-block;
+    font-size: 14pt;
+    font-weight: bold;
+    height: .8em;
+    margin: 0px 20px 0px 0px;
+}
+
+#bodyimage img{
+    height: 150px;
+    width: 294px;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    
+}
+
+#bodyimage{
+    margin: 0px auto;
+    padding: 0px;
+    height: 150px;
+}
+
+.bodycontext{
+    background-image: linear-gradient(to right, rgb(225,225,225),rgb(219,203,216));
+    font-family: "Helvetica";
+    font-size: 11pt;
+    width: 274px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 0px;
+    display: inline-block;
+    min-height: 212px;
+    font-weight: lighter;
+    vertical-align: top;
+    text-align: justify;
+}
+
+
+.technologies{
+    background-image: linear-gradient(rgb(180,180,183),rgb(135,135,146),rgb(180,180,183));
+    font-family: "Helvetica";
+    color: white;
+    padding: 10px 10px 10px 10px;
+    width: 274px;
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: bold;
+    height: .8em;
+    margin: 0px 20px 0px 0px;
+}
+
+.icons{
+    background-image: linear-gradient(to right, rgb(225,225,225),rgb(219,203,216));
+    font-family: "Helvetica";
+    font-size: 12pt;
+    width: 274px;
+    margin: 0px 20px 0px 0px;
+    display: inline-block;
+    min-height: 100px;
+    font-weight: lighter;
+    padding: 10px 10px 20px 10px;
+    text-align: justify;
+}
+
+.iconpack img{
+    height: 41px;
+    width: 41px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.icons .buttonarea{
+    text-align: center;
+}
+
+.icons .button{
+    color: white;
+    background-color: rgb(59,125,100);
+    border-radius: 5px;
+    border-color: rgb(0,43,0);
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    box-shadow: 4px 4px 5px grey;
+}
+
+#footer{
+    background-image: linear-gradient(white, rgb(214, 213, 213));
+    display: block;
+    padding: 0px;
+    min-height: 40px;
+    padding-left: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.email p{
+    font-weight: lighter !important;
+    padding-top: 8px; 
+    height: .8em;
+}
+
+.socialmedia{
+    padding: 8px;
+}
+.socialmedia p{
+    display: inline;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.socialmedia img{
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
